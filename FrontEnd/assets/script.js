@@ -119,7 +119,7 @@ const imprimirTodasAsPaletas = async () => {
       <div class="CartaoPaleta">
         <div class="CartaoPaleta__infos">
           <h4>${elemento.sabor}</h4>
-          <span>R$${elemento.preco.toFixed(2)}</span>
+          <span>R$${elemento.preco}</span>
           <p>${elemento.descricao}</p>
         </div>
         <img src="./${elemento.foto}" alt="Paleta sabor ${
@@ -153,7 +153,7 @@ const imprimirUmaPaletaPorId = async () => {
       <div class="CartaoPaleta">
         <div class="CartaoPaleta__infos">
           <h4>${paleta.sabor}</h4>
-          <span>R$${paleta.preco.toFixed(2)}</span>
+          <span>R$${paleta.preco}</span>
           <p>${paleta.descricao}</p>
         </div>
         <img src="./${paleta.foto}" alt="Paleta sabor ${
